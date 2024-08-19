@@ -1,0 +1,13 @@
+progress {
+    width: 100%;
+    height: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  progress[value]::-webkit-progress-bar {
+    background-color: rgb(231, 109, 160);
+  }
+  
+  progress[value]::-webkit-progress-value {
+    background-color: #007bff;
+  }
